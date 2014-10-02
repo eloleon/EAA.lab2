@@ -1,0 +1,344 @@
+Script started on Thu 02 Oct 2014 20:35:36 IST
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1 $[00m ./script[K[K[K[K[K[K[K[Kls -l
+total 12
+-rw-r--r-- 1 mint mint  118 Oct  2 20:28 README.md
+-rw-r--r-- 1 mint mint   93 Oct  2 20:29 script.sh
+drwxr-xr-x 2 mint mint 4096 Oct  2 20:31 [0m[01;34mtest[0m
+-rw-r--r-- 1 mint mint    0 Oct  2 20:32 testing_commit.txt
+-rw-r--r-- 1 mint mint    0 Oct  2 20:35 typescript
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1 $[00m ./script.sh
+bash: ./script.sh: Permission denied
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1 $[00m chmod + [Kx script.sh
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1 $[00m ls -l
+total 12
+-rw-r--r-- 1 mint mint  118 Oct  2 20:28 README.md
+-rwxr-xr-x 1 mint mint   93 Oct  2 20:29 [0m[01;32mscript.sh[0m
+drwxr-xr-x 2 mint mint 4096 Oct  2 20:31 [01;34mtest[0m
+-rw-r--r-- 1 mint mint    0 Oct  2 20:32 testing_commit.txt
+-rw-r--r-- 1 mint mint    0 Oct  2 20:35 typescript
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1 $[00m ls -lchmod +x script.sh[7P./script.shchmod +x script.shls -l[Kchmod +x script.sh[7P./script.sh
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1 $[00m ls -l
+total 12
+-rw-r--r-- 1 mint mint  118 Oct  2 20:28 README.md
+-rwxr-xr-x 1 mint mint   93 Oct  2 20:29 [0m[01;32mscript.sh[0m
+drwxr-xr-x 2 mint mint 4096 Oct  2 20:31 [01;34mtest[0m
+-rw-r--r-- 1 mint mint    0 Oct  2 20:32 testing_commit.txt
+-rw-r--r-- 1 mint mint    0 Oct  2 20:35 typescript
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1 $[00m ls -l./script.sh[6Pls -lchmod +x script.sh[7P./script.sh[6Pls -lvi .profile [5Pls -ltrsudo shutdown -r now/opt/chef/bin/chef-solo[3Psudo shutdown -r now[13Pls -ltrvi .profile [7Pls -l./script.shchmod +x script.shls -l[K./script.sh[6Pls -l[Kgedit script [K.sh
+
+** (gedit:5525): WARNING **: Could not write gedit state file: Failed to create file '/home/mint/.gnome2/gedit/gedit-2.ESBUMX': Permission denied
+
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1 $[00m ^C[Kgrep processor /proc/cpuinfo | wc -l
+2
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1 $[00m grep processor /proc/cpuinfo | wc -l[21Pedit script.sh[1@s[1@u[1@d[1@o[1@ 
+[sudo] password for mint: 
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1 $[00m sudo gedit script.shgrep processor /proc/cpuinfo | wc -l[21Pedit script.sh
+
+(gedit:5551): Gtk-WARNING **: Attempting to read the recently used resources file at `/home/mint/.local/share/recently-used.xbel', but the parser failed: Failed to open file '/home/mint/.local/share/recently-used.xbel': Permission denied.
+
+** (gedit:5551): WARNING **: Could not write gedit state file: Failed to create file '/home/mint/.gnome2/gedit/gedit-2.4STNMX': Permission denied
+
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1 $[00m gedit script.sh
+
+** (gedit:5557): WARNING **: Could not write gedit state file: Failed to create file '/home/mint/.gnome2/gedit/gedit-2.4DM3MX': Permission denied
+
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1 $[00m gedit script.sh[5@sudo [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgrep processor /proc/cpuinfo | wc -l[21Pedit script.sh[10Pls -l./script.sh
+The number of CPUs is:
+2
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1 $[00m ./script.shgedit script.sh[K[K[K[K[K[K[K[K[K[K[K[K[Kgit commit[K[K[K[K[K[K[K[K[K[K[K[Kgit commit -a
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.6 File: .../mint/EAA.lab.2/week2.1/.git/COMMIT_EDITMSG           [4;1H(B[m# Please enter the commit message for your changes. Lines starting[5d# with '#' will be ignored, and an empty message aborts the commit.[6d# On branch master[7d# Your branch is up-to-date with 'origin/master'.[8d#[9d# Changes to be committed:[10d#[9Gmodified:   script.sh[11d#[12d# Untracked files:[13d#[9Gtypescript[14d#[22;32H(B[0;7m[ Read 12 lines ][23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d[1;71H(B[0;7mModified[3d(B[mAdded code to copunt     [22d[K[3;17Hunt the number of CPUs[24;1H[?1049l[?1l>Use "fg" to return to nano.
+
+[1]+  Stopped                 git commit -a
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1 $[00m git [K[K[K[Kgit commit -a[K[K[K[K[K[K[K[K[Kpush
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+In Git 2.0, Git will default to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': ^[[A    ^Z
+[2]+  Stopped                 git push
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1 $[00m git push -u ori[Kgi[K[Kigin master
+Username for 'https://github.com': eloleon
+Password for 'https://eloleon@github.com': 
+Branch master set up to track remote branch master from origin.
+Everything up-to-date
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1 $[00m ls =-[K[K-l
+total 16
+-rw-r--r-- 1 mint mint  118 Oct  2 20:28 README.md
+-rwxr-xr-x 1 mint mint  186 Oct  2 20:40 [0m[01;32mscript.sh[0m
+drwxr-xr-x 2 mint mint 4096 Oct  2 20:31 [01;34mtest[0m
+-rw-r--r-- 1 mint mint    0 Oct  2 20:32 testing_commit.txt
+-rw-r--r-- 1 mint mint 4096 Oct  2 20:41 typescript
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1 $[00m mkdir scripts
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1 $[00m cd scripts
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m touch[K[K[K[K[Kt[Kgedit hw,sh[K[K[K.s[K[K.hs[K[Ksh
+
+** (gedit:5603): WARNING **: Could not write gedit state file: Failed to create file '/home/mint/.gnome2/gedit/gedit-2.PZYQMX': Permission denied
+
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m chmo[K[K[K[Kgedit hw.sh[1Pcd scripts[3@mkdir[C[C[C[C[C[C[C[C[8Pls -lgit push -u origin master[Kcommit -a[2P./script.shgedit script.sh[5@sudo [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgrep processor /proc/cpuinfo || wc -l[A[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m [9Psudo gedit script.sh
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgrep processor /proc/cpuinfo || wc -l[A[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m [C[14Pedit script.sh
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10Pls -l./script.sh[6Pls -lchmod +x script.sh[K[K[K[K[K[K[K[K[Khw.sh
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m ls -l
+total 4
+-rwxr-xr-x 1 mint mint 43 Oct  2 20:47 [0m[01;32mhw.sh[0m
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m ls -l[K[K[K[K[Khw.sh
+hw.sh: command not found
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m hw.shls -lchmod +x hw.sh[3Pgedit[C[C[C[C[C[C[3@chmod +x[C[C[C[C[C[C[9Pls -lhw.sh[K[K[K[K[Khoist[K[K[K[K[Khois[K[K[Kistory
+    1  ls -ltr
+    2  sudo gedit /etc/cntlm.conf 
+    3  bg
+    4  cd
+    5  find . -name *.crt -print 2>/dev/null
+    6  cd Downloads/
+    7  ls
+    8  vi eduroam-linux-IoTT_Linux.sh 
+    9  cd
+   10  sudo gedit /etc/cntlm.conf 
+   11  sudo gedit /etc/cntlm.conf 
+   12  bg
+   13  cntlm -M
+   14  cntlm -H
+   15  cntlm -H
+   16  cntlm -H
+   17  cntlm -H
+   18  sudo service cntlm restart
+   19  cntlm -H
+   20  cntlm -H cntlm.conf
+   21  cntlm cntlm.conf -H
+   22  cntlm -H
+   23  cntlm -H www.sun.com
+   24  cntlm -H
+   25  cntlm -H
+   26  ls /etc
+   27  sudo mv /etc/cntlm.conf /etc/cntlm.conf.old
+   28  cntlm -H
+   29  ls
+   30  sudo apt-get remove cntlm
+   31  sudo apt-get install cntlm
+   32  sudo apt-get remove cntlm
+   33  sudo apt-get install cntlm
+   34  sudo service start cntlm
+   35  sudo apt-get install cntlm
+   36  sudo service start 
+   37  sudo service cntlm start
+   38  sudo service cntlm start -v
+   39  sudo apt-get remove cntlm
+   40  sudo apt-get install cntlm
+   41  sudo apt-get remove cntlm
+   42  sudo apt-get install cntlm
+   43  sudo apt-get remove cntlm
+   44  find / -name cntlm.conf -print
+   45  find / -name cntlm.conf -print 2>/dev/nul
+   46  find / -name cntlm.conf -print 2>/dev/null
+   47  sudo apt-get remove cntlm
+   48  sudo apt-get install cntlm
+   49  sudo apt-get install cntlm
+   50  ls /etc/cntlm.conf
+   51  sudo apt-get purge cntlm
+   52  sudo apt-get install cntlm
+   53  find / -name cntlm.conf -print 2>/dev/null
+   54  cntlm -H
+   55  sudo vi /etc/cntlm.conf
+   56  cntlm -H
+   57  fg
+   58  sudo service cntlm restart
+   59  vi eduroam-linux-IoTT_Linux.sh 
+   60  sudo vi /etc/cntlm.conf
+   61  cntlm -M
+   62  cntlm -H -c /etc/cntlm.conf
+   63  cntlm -c /etc/cntlm.conf -H
+   64  cntlm -H
+   65  cntlm -c /etc/cntlm.conf -H
+   66  cntlm -c /etc/cntlm.conf 
+   67  cntlm -H -u jburns@stf
+   68  sudo vi /etc/cntlm.conf
+   69  sudo service cntlm restart
+   70  sudo vi /etc/cntlm.conf
+   71  sudo service cntlm restart
+   72  sudo service cntlm restart
+   73  sudo service cntlm restart
+   74  ls -ltr
+   75  rm *.cer
+   76  ls
+   77  chef
+   78  ls /opt
+   79  /opt/chef/bin/chef-solo
+   80  sudo shutdown -r now
+   81  ls -ltr
+   82  vi .profile 
+   83  ls -l
+   84  ./script.sh
+   85  chmod +x script.sh
+   86  ls -l
+   87  ./script.sh
+   88  ls -l
+   89  gedit script.sh
+   90  grep processor /proc/cpuinfo | wc -l
+   91  sudo gedit script.sh
+   92  gedit script.sh
+   93  gedit script.sh
+   94  ./script.sh
+   95  git commit -a
+   96  git push
+   97  git push -u origin master
+   98  ls -l
+   99  mkdir scripts
+  100  cd scripts
+  101  gedit hw.sh
+  102  chmod +x hw.sh
+  103  ls -l
+  104  hw.sh
+  105  history
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m ./hw.sh
+Hello, World!
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m cd ..
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1 $[00m ls
+README.md  [0m[01;34mscripts[0m  [01;32mscript.sh[0m  [01;34mtest[0m  testing_commit.txt  typescript
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1 $[00m git commit -a
+fatal: Unable to create '/home/mint/EAA.lab.2/week2.1/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1 $[00m git commit -als[Kcd .../hw.shhistory[2Pw.shls -lchmod +x hw.sh[3Pgedit[C[C[C[C[C[C[1Pcd scripts[3@mkdir[C[C[C[C[C[C[C[C[3Pcd[C[C[C[C[C[C[C[C
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m cd[K[Kgit a[Kcommit[K[K[K[K[K[K[K[K[K[Kcd ..
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1 $[00m git add -A
+fatal: Unable to create '/home/mint/EAA.lab.2/week2.1/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1 $[00m ^C
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1 $[00m rm -f .//git[K[K[K[K[K/git/index.lock
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1 $[00m rm -f ./git/index.lock[12Pgit add -A
+fatal: Unable to create '/home/mint/EAA.lab.2/week2.1/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1 $[00m git add -A
+fatal: Unable to create '/home/mint/EAA.lab.2/week2.1/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1 $[00m git add -Als
+error: unknown switch `l'
+usage: git add [options] [--] <pathspec>...
+
+    -n, --dry-run         dry run
+    -v, --verbose         be verbose
+
+    -i, --interactive     interactive picking
+    -p, --patch           select hunks interactively
+    -e, --edit            edit current diff and apply
+    -f, --force           allow adding otherwise ignored files
+    -u, --update          update tracked files
+    -N, --intent-to-add   record only the fact that the path will be added later
+    -A, --all             add changes from all tracked and untracked files
+    --ignore-removal      ignore paths removed in the working tree (same as --no-all)
+    --refresh             don't add, only refresh the index
+    --ignore-errors       just skip files which cannot be added because of errors
+    --ignore-missing      check if - even missing - files are ignored in dry run
+
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1 $[00m ls
+README.md  [0m[01;34mscripts[0m  [01;32mscript.sh[0m  [01;34mtest[0m  testing_commit.txt  typescript
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1 $[00m sudpo [K[K[Ko rm -f ./git/index.lock
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1 $[00m l[Ksudo rm -f ./git/index.lockls[Kgit add -Als[K[K
+fatal: Unable to create '/home/mint/EAA.lab.2/week2.1/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1 $[00m git add -A
+fatal: Unable to create '/home/mint/EAA.lab.2/week2.1/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1 $[00m git push
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+In Git 2.0, Git will default to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': elolo     ^[[A^[[B^Z
+[3]+  Stopped                 git push
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1 $[00m git push -u origin master
+Username for 'https://github.com': eloleon
+Password for 'https://eloleon@github.com': 
+Branch master set up to track remote branch master from origin.
+Everything up-to-date
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1 $[00m git add -A
+fatal: Unable to create '/home/mint/EAA.lab.2/week2.1/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1 $[00m git add -Apush -u origin master[Kadd -Asudo rm -f ./git/index.lock
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1 $[00m sudo rm -f ./git/index.lock[17Pgit add -A
+fatal: Unable to create '/home/mint/EAA.lab.2/week2.1/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1 $[00m cd ..
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2 $[00m cd ..git add -A
+fatal: Unable to create '/home/mint/EAA.lab.2/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2 $[00m fg
+git push	(wd: ~/EAA.lab.2/week2.1)
+
+Password for 'https://github.com': 
+remote: Anonymous access to eloleon/EAA.lab2.git denied.
+fatal: Authentication failed for 'https://github.com/eloleon/EAA.lab2.git/'
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2 $[00m fggit add -A
+fatal: Unable to create '/home/mint/EAA.lab.2/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2 $[00m fg
+git push	(wd: ~/EAA.lab.2/week2.1)
+
+Password for 'https://github.com': 
+remote: Anonymous access to eloleon/EAA.lab2.git denied.
+fatal: Authentication failed for 'https://github.com/eloleon/EAA.lab2.git/'
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2 $[00m fg
+git commit -a	(wd: ~/EAA.lab.2/week2.1)
+[24;1H[?1049l[?1l>[
