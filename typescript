@@ -341,4 +341,247 @@ remote: Anonymous access to eloleon/EAA.lab2.git denied.
 fatal: Authentication failed for 'https://github.com/eloleon/EAA.lab2.git/'
 [01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2 $[00m fg
 git commit -a	(wd: ~/EAA.lab.2/week2.1)
-[24;1H[?1049l[?1l>[
+[24;1H[?1049l[?1l>[?1049h[1;24r[?12l[?25h[39;49m(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 2.2.6 File: .../mint/EAA.lab.2/week2.1/.git/COMMIT_EDITMSG Modified  [3;1H(B[mAdded code to count the number of CPUs[4d# Please enter the commit message for your changes. Lines starting[5d# with '#' will be ignored, and an empty message aborts the commit.[6d# On branch master[7d# Your branch is up-to-date with 'origin/master'.[8d#[9d# Changes to be committed:[10d#[9Gmodified:   script.sh[11d#[12d# Untracked files:[13d#[9Gtypescript[14d#[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3;39H[?1h=[?1h=[?1h=[H[2J(B[0;7m  GNU nano 2.2.6 File: .../mint/EAA.lab.2/week2.1/.git/COMMIT_EDITMSG Modified  [3;1H(B[mAdded code to count the number of CPUs[4d# Please enter the commit message for your changes. Lines starting[5d# with '#' will be ignored, and an empty message aborts the commit.[6d# On branch master[7d# Your branch is up-to-date with 'origin/master'.[8d#[9d# Changes to be committed:[10d#[9Gmodified:   script.sh[11d#[12d# Untracked files:[13d#[9Gtypescript[14d#[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3;39H[22d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                    [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;62H(B[0;7mFile Name to Write: /home/mint/EAA.lab.2/week2.1/.git/COMMIT_EDITMSG[23d^G(B[m Get Help[23;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[23;61H(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[22;69H[23d[39;49m(B[m[J[1;71H(B[0;7m        [22;31H(B[m[1K (B[0;7m[ Wrote 12 lines ](B[m[K[24;80H[24;1H[?1049l[?1l>[master a7d328c] Added code to count the number of CPUs
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+ mode change 100644 => 100755 script.sh
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2 $[00m fg
+bash: fg: current: no such job
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2 $[00m fggit add -A
+fatal: Unable to create '/home/mint/EAA.lab.2/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2 $[00m fg
+bash: fg: current: no such job
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2 $[00m cd week2.1
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1 $[00m l[Kfg
+bash: fg: current: no such job
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1 $[00m fgcd week2.1fg[Kgit add -Afg[Kgit add -A
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1 $[00m git commit -m @@[K[K""t"e"s"t"[C
+[master 4c34b1a] test
+ 2 files changed, 346 insertions(+)
+ create mode 100755 scripts/hw.sh
+ create mode 100644 typescript
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1 $[00m git commit -m "test"[10Padd -Afg[Kcd week2.1fg[Kgit add -Afg[K[K[Kgit puis[K[Ksh -u m[Korigin masyer[K[K[Kter
+Username for 'https://github.com': eloleon
+Password for 'https://eloleon@github.com': 
+Counting objects: 10, done.
+Delta compression using up to 2 threads.
+Compressing objects:  16% (1/6)   Compressing objects:  33% (2/6)   Compressing objects:  50% (3/6)   Compressing objects:  66% (4/6)   Compressing objects:  83% (5/6)   Compressing objects: 100% (6/6)   Compressing objects: 100% (6/6), done.
+Writing objects:  12% (1/8)   Writing objects:  25% (2/8)   Writing objects:  37% (3/8)   Writing objects:  50% (4/8)   Writing objects:  62% (5/8)   Writing objects:  75% (6/8)   Writing objects:  87% (7/8)   Writing objects: 100% (8/8)   Writing objects: 100% (8/8), 4.47 KiB | 0 bytes/s, done.
+Total 8 (delta 1), reused 0 (delta 0)
+To https://github.com/eloleon/EAA.lab2.git
+   5a95ce0..4c34b1a  master -> master
+Branch master set up to track remote branch master from origin.
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1 $[00m gedit [K[K[K[K[K[Kls
+README.md  [0m[01;34mscripts[0m  [01;32mscript.sh[0m  [01;34mtest[0m  testing_commit.txt  typescript
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1 $[00m  cd[K[K[Kcd scripts
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m ls
+[0m[01;32mhw.sh[0m
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m  [Kgedit [K hw.sh
+
+** (gedit:5676): WARNING **: Could not write gedit state file: Failed to create file '/home/mint/.gnome2/gedit/gedit-2.675RMX': Permission denied
+
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m gedit hw.sh[K[K[K[K[K[K[K[K[K[K[K./shw[K.sh[K[Khw
+bash: ./sh.hw: No such file or directory
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m ./sh.hw[K[K[K[K[Khw.sh 
+Hello, 
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m ./hw.sh ee
+Hello, ee
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m ./hw.sh ee[K[KLeon
+Hello, Leon
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m ./hw.sh Leon[2Pee[K[1Psh.hwgedit hw.sh
+
+** (gedit:5694): WARNING **: Could not write gedit state file: Failed to create file '/home/mint/.gnome2/gedit/gedit-2.H572MX': Permission denied
+
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m gedit hw.sh[K[K[K[K[K[K data.sh
+
+** (gedit:5703): WARNING **: Could not write gedit state file: Failed to create file '/home/mint/.gnome2/gedit/gedit-2.78PZMX': Permission denied
+
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m ./data.sh jacek 1985 blue
+bash: ./data.sh: Permission denied
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m ./data.sh jacek 1985 blue[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+bash: ./data.sh: Permission denied
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m ./data.sh 
+bash: ./data.sh: Permission denied
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m ./data.sh [K[K[K[K[K[K[K[K[K[Kchmod +X data.sj[K[K[K[K[K[K[K[K[Kx data.sh
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m ls -l
+total 8
+-rwxr-xr-x 1 mint mint 129 Oct  2 21:02 [0m[01;32mdata.sh[0m
+-rwxr-xr-x 1 mint mint  71 Oct  2 21:01 [01;32mhw.sh[0m
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m ls -lchmod +x data.sh[6P./data.sh 
+Hello  you were born in  and your favourite color is [01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m ./data.sh Jacek
+Hello Jacek you were born in  and your favourite color is [01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m ./data.sh Jacek 1985
+Hello Jacek you were born in 1985 and your favourite color is [01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m ./data.sh Jacek 1985 blue
+Hello Jacek you were born in 1985 and your favourite color is blue[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m ge[Kedut [K[K[Kit data.sh
+
+** (gedit:5721): WARNING **: Could not write gedit state file: Failed to create file '/home/mint/.gnome2/gedit/gedit-2.84KLMX': Permission denied
+
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m gedit data.sh./data.sh Jacek 1985 blue
+Hello Jacek you were born in 1985 and your favourite color is blue
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m ./data.sh Jacek 1985 blue[12Pgedit data.sh
+
+** (gedit:5731): WARNING **: Could not write gedit state file: Failed to create file '/home/mint/.gnome2/gedit/gedit-2.DZJXMX': Permission denied
+
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m gedit data.sh./data.sh Jacek 1985 blue
+Hello Jacek you were born in 1985 and your favourite color is blue
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m ./data.sh Jacek 1985 blue[1P[C[1P blue[1P blue[1P blue2 blue0 blue1 blue0 blueC blue[1P blue[C[C[C[C[C
+Hello Jacek you were born in 2010 and your favourite color is blue
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m ./data.sh Jacek 2010 blue[Kgit add -A
+warning: The behavior of 'git add --all (or -A)' with no path argument from a
+subdirectory of the tree will change in Git 2.0 and should not be used anymore.
+To add content for the whole tree, run:
+
+  git add --all :/
+  (or git add -A :/)
+
+To restrict the command to the current directory, run:
+
+  git add --all .
+  (or git add -A .)
+
+With the current Git version, the command is restricted to the current directory.
+
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m git add -A[K[K[K[K[K[K[K[K[K[Kgit commit -m @[K""s"e"c"o"n"d" "c"o"m"m"i"t" [A[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[A
+[master 441ecb3] second commit
+ 2 files changed, 5 insertions(+), 1 deletion(-)
+ create mode 100755 scripts/data.sh
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m git push -u otr[K[Krigin master
+Username for 'https://github.com': eloloen
+Password for 'https://eloloen@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/eloleon/EAA.lab2.git/'
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m git push -u origin master
+Username for 'https://github.com': eloleon
+Password for 'https://eloleon@github.com': 
+Counting objects: 8, done.
+Delta compression using up to 2 threads.
+Compressing objects:  20% (1/5)   Compressing objects:  40% (2/5)   Compressing objects:  60% (3/5)   Compressing objects:  80% (4/5)   Compressing objects: 100% (5/5)   Compressing objects: 100% (5/5), done.
+Writing objects:  20% (1/5)   Writing objects:  40% (2/5)   Writing objects:  60% (3/5)   Writing objects:  80% (4/5)   Writing objects: 100% (5/5)   Writing objects: 100% (5/5), 490 bytes | 0 bytes/s, done.
+Total 5 (delta 1), reused 0 (delta 0)
+To https://github.com/eloleon/EAA.lab2.git
+   4c34b1a..441ecb3  master -> master
+Branch master set up to track remote branch master from origin.
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m gedit [K[K[K[K[K[Ksudeo[K[Ko gedit s[Kdiary.sh
+[sudo] password for mint: 
+Sorry, try again.
+[sudo] password for mint: 
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m ls
+[0m[01;32mdata.sh[0m  diary.sh  [01;32mhw.sh[0m
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m ls -l
+total 8
+-rwxr-xr-x 1 mint mint 131 Oct  2 21:03 [0m[01;32mdata.sh[0m
+-rw-r--r-- 1 root root   0 Oct  2 21:10 diary.sh
+-rwxr-xr-x 1 mint mint  71 Oct  2 21:01 [01;32mhw.sh[0m
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m ls -l[Ksudo gedit diary.shgit push -u origin mastercommit -m "second commit" [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./data.sh Jacek 2010 blue1985[C[C[C[C[C[12Pgedit data.sh./data.sh Jacek 1985 blue[12Pgedit data.sh./data.sh Jacek 1985 blue[K[K[K[5Pls -lchmod +x data.sh[6P./data.sh jacek 1985 blue[12Pgedit data.sh[2Phw.sh./hw.sh Leon[2Pee[K[1Psh.hwgedit hw.shls[Kcd scriptsls[Kgit push -u origin master[5Pcommit -m "test"[10Padd -Afg[Kcd week2.1fg[Kgit add -Afg[Kgit add -Afg[Kgit add -A[5Pcd ..git add -Asudo rm -f ./git/index.lock[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kdairy.[K[K[K[K[Kiary.sh
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m ls -l
+total 8
+-rwxr-xr-x 1 mint mint 131 Oct  2 21:03 [0m[01;32mdata.sh[0m
+-rwxr-xr-x 1 mint mint  71 Oct  2 21:01 [01;32mhw.sh[0m
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m echo $APPEND >> [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgedit diary.sh
+
+(gedit:5777): Gtk-WARNING **: Attempting to read the recently used resources file at `/home/mint/.local/share/recently-used.xbel', but the parser failed: Failed to open file '/home/mint/.local/share/recently-used.xbel': Permission denied.
+
+** (gedit:5777): WARNING **: Could not write gedit state file: Failed to create file '/home/mint/.gnome2/gedit/gedit-2.HKV5MX': Permission denied
+
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m ls -l
+total 8
+-rwxr-xr-x 1 mint mint 131 Oct  2 21:03 [0m[01;32mdata.sh[0m
+-rw-r--r-- 1 mint mint   0 Oct  2 21:12 diary.sh
+-rwxr-xr-x 1 mint mint  71 Oct  2 21:01 [01;32mhw.sh[0m
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m chmod +z[Kx diary [K.sh
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m ls
+[0m[01;32mdata.sh[0m  [01;32mdiary.sh[0m  [01;32mhw.sh[0m
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m ls -l
+total 8
+-rwxr-xr-x 1 mint mint 131 Oct  2 21:03 [0m[01;32mdata.sh[0m
+-rwxr-xr-x 1 mint mint   0 Oct  2 21:12 [01;32mdiary.sh[0m
+-rwxr-xr-x 1 mint mint  71 Oct  2 21:01 [01;32mhw.sh[0m
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m echo $APPEND >> diary.sj
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m echo $APPEND >> diary.sj[Kh
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m ls -=[Kl
+total 16
+-rwxr-xr-x 1 mint mint 131 Oct  2 21:03 [0m[01;32mdata.sh[0m
+-rwxr-xr-x 1 mint mint   1 Oct  2 21:12 [01;32mdiary.sh[0m
+-rw-r--r-- 1 mint mint   1 Oct  2 21:12 diary.sj
+-rwxr-xr-x 1 mint mint  71 Oct  2 21:01 [01;32mhw.sh[0m
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m ls -lecho $APPEND >> diary.shjls -l[K[Kchmod +x diary.shls -l[Kgedit diary.sh[9Pls -lsudo rm -f diary.shls -l[Ksudo rm -f diary.shls -l[K[Ksudo gedit diary.shgit push -u origin mastercommit -m "second commit" [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./data.sh Jacek 2010 blue1985[C[C[C[C[C[12Pgedit data.sh./data.sh Jacek 1985 blue[12Pgedit data.sh./data.sh Jacek 1985 blue[K[K[K[5Pls -lchmod +x data.sh[6P./data.sh chmod +x data.sh[6P./data.sh jacek 1985 blue[12Pgedit data.sh[2Phw.sh./hw.sh Leon[2Pee[K[1Psh.hwgedit hw.shls[Kcd scriptsls[Kgit push -u origin master[5Pcommit -m "test"[10Padd -Afg[Kcd week2.1fg[Kgit add -Afg[Kgit add -Afg[Kgit add -A[5Pcd ..git add -Asudo rm -f ./git/index.lock[17Pgit add -Asudo rm -f ./git/index.lock[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Krm -f diar[Kry.sj
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m ls
+[0m[01;32mdata.sh[0m  [01;32mdiary.sh[0m  [01;32mhw.sh[0m
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m geditr [K[K diary [K.sh
+
+** (gedit:5791): WARNING **: Could not write gedit state file: Failed to create file '/home/mint/.gnome2/gedit/gedit-2.DB9UMX': Permission denied
+
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m echo @@[K[K""h"e"l"l"o"p"[1P"[C >> diary.sh
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m gedit diary.sh
+
+** (gedit:5798): WARNING **: Could not write gedit state file: Failed to create file '/home/mint/.gnome2/gedit/gedit-2.0L75MX': Permission denied
+
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m gedit diary.sh[10@echo "hello" >>[C[C[C[C[C[C[C[C[C
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m ls[K[Kgedi[K[K[K[Kgedit [K[K[K[K[K[Kecho "hello" >> diary.sh[10Pgedit[C[C[C[C[C[C[C[C[C[10@echo "hello" >>[C[C[C[C[C[C[C[C[C[10Pgedit[C[C[C[C[C[C[C[C[Cls[Krm -f diary.sj[9Pls -lecho $APPEND >> diary.shjls -l[K[Kchmod +x diary.shls -l[Kgedit diary.sh[9Pls -lsudo rm -f diary.shls -l[K[Ksudo gedit diary.shgit push -u origin mastercommit -m "second commit" [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./data.sh Jacek 2010 blue1985[C[C[C[C[C[12Pgedit data.sh./data.sh Jacek 1985 blue
+Hello Jacek you were born in 1985 and your favourite color is blue
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m ./data.sh Jacek 1985 blue[1Pecho "hello" >> diary.sh[10Pgedit[C[C[C[C[C[C[C[C[C[10@echo "hello" >>[C[C[C[C[C[C[C[C[C[10Pgedit[C[C[C[C[C[C[C[C[Cls[Krm -f diary.sj[9Pls -lecho $APPEND >> diary.sh[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgedit diary.sj[Kh
+
+** (gedit:5832): WARNING **: Could not write gedit state file: Failed to create file '/home/mint/.gnome2/gedit/gedit-2.HCHTMX': Permission denied
+
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m gedit diary.sh[K[K[K[K[K[K[K[K[K[K[K[K[K[K./diary.sh
+Input some that and it will be appended at the end of this file: 
+eloleon
+eloleon
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m ./diary.shgedit diary.sh
+
+** (gedit:5843): WARNING **: Could not write gedit state file: Failed to create file '/home/mint/.gnome2/gedit/gedit-2.SLQXMX': Permission denied
+
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m gedit diary.sh[4P./diary.sh
+Input some that and it will be appended at the end of this file: 
+Jacek
+./diary.sh: line 5: Jacek: command not found
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m ./diary.shgedit diary.sh
+
+** (gedit:5853): WARNING **: Could not write gedit state file: Failed to create file '/home/mint/.gnome2/gedit/gedit-2.4DB4MX': Permission denied
+
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m gedit diary.sh[4P./diary.sh
+Input some that and it will be appended at the end of this file: 
+jacek
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m k=[K[Kl;s[K[Ks -l
+total 16
+-rwxr-xr-x 1 mint mint 131 Oct  2 21:03 [0m[01;32mdata.sh[0m
+-rwxr-xr-x 1 mint mint 125 Oct  2 21:22 [01;32mdiary.sh[0m
+-rw-r--r-- 1 mint mint   5 Oct  2 21:22 diary.txt
+-rwxr-xr-x 1 mint mint  71 Oct  2 21:01 [01;32mhw.sh[0m
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m ls -l./diary.shgedit diary.sh[4P./diary.shgedit diary.sh[4P./diary.sh[K[K[K[K[K[K[K[K[K[Kgedit diary.sh[4P./diary.shgedit diary.sh./data.sh Jacek 1985 blue[11Pgedit diary.sh[4P./diary.shgedit diary.sh[Kgedit diary.sh[4P./diary.sh eloleon
+Input some that and it will be appended at the end of this file: 
+siolo
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m ls [K[K[Kdg[K[Kgedit diary.s[K[K.txt
+
+** (gedit:5864): WARNING **: Could not write gedit state file: Failed to create file '/home/mint/.gnome2/gedit/gedit-2.XNR2MX': Permission denied
+
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m gedit diary.txt./diary.sh eloleonls -l[K[K[K[K[K[Kr,[Km 0[K-f diary.txt
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m ls -l
+total 12
+-rwxr-xr-x 1 mint mint 131 Oct  2 21:03 [0m[01;32mdata.sh[0m
+-rwxr-xr-x 1 mint mint 125 Oct  2 21:22 [01;32mdiary.sh[0m
+-rwxr-xr-x 1 mint mint  71 Oct  2 21:01 [01;32mhw.sh[0m
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m gedit diary.sj[Kh
+
+** (gedit:5873): WARNING **: Could not write gedit state file: Failed to create file '/home/mint/.gnome2/gedit/gedit-2.WYUQMX': Permission denied
+
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m ./diary.sh jacek
+Input some that and it will be appended at the end of this file: 
+^[[A    jacek
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m ks[K[K./diary.sh
+Input some that and it will be appended at the end of this file: 
+IT Tallaght
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m ./diary.sh jacek[2Pgedit diary.sh./diary.sh jacek[K[K[K[Ksh[K[K.sh jacek[2Pgedit diary.sh
+
+** (gedit:5883): WARNING **: Could not write gedit state file: Failed to create file '/home/mint/.gnome2/gedit/gedit-2.8QUXMX': Permission denied
+
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scripts $[00m gedit diary.sh[4P./diary.sh
+Input some that and it will be appended at the end of this file: 
+FC Barcelona
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA.lab.2/week2.1/scr
